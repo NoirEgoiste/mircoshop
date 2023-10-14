@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Black">
-    <option name="sdkName" value="Poetry (web-project-microshop)" />
+    <option name="enabledOnReformat" value="true" />
+    <option name="enabledOnSave" value="true" />
+    <option name="executionMode" value="BINARY" />
+    <option name="pathToExecutable" value="C:\Users\dimon\AppData\Local\Programs\Python\Python311\Scripts\black.exe" />
+    <option name="sdkName" value="Poetry (web-project-microshop) (2)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Poetry (web-project-microshop)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Poetry (web-project-microshop) (2)" project-jdk-type="Python SDK" />
 </project>

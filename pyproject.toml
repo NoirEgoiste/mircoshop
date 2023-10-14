@@ -2,7 +2,7 @@
 name = "microshop"
 version = "0.1.0"
 description = ""
-authors = ["Noir_Egoiste <dimon0.0@yandex.ru>"]
+authors = ["Noir_Egoiste <Noir_Egoiste@mail.ru>"]
 license = "MIT"
 readme = "README.md"
 
@@ -11,6 +11,9 @@ python = "^3.11"
 fastapi = "^0.103.2"
 uvicorn = {extras = ["standart"], version = "^0.23.2"}
 pydantic = {extras = ["email"], version = "^2.4.2"}
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.21"}
+aiosqlite = "^0.19.0"
+pydantic-settings = "^2.0.3"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.2"
