@@ -1,7 +1,0 @@
-.gitignore
-.idea
-.venv
-__pycache__
-core/__pycache__/
-api_v1/__pycache__/
-core/models/__pycache__/
