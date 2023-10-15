@@ -1,4 +1,4 @@
-from core.models import Base
+from core.schemas.base import Base
 
 
 class ProductBase(Base):
@@ -7,8 +7,18 @@ class ProductBase(Base):
     price: int
 
 
-class ProductCreate(Base):
+class ProductCreate(ProductBase):
     pass
+
+
+class ProductUpdate(ProductCreate):
+    pass
+
+
+class ProductUpdatePartial(ProductCreate):
+    name: str | None = None
+    description: str | None = None
+    price: int | None = None
 
 
 class Product(ProductBase):
