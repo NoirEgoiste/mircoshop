@@ -3,8 +3,8 @@ from asyncio import current_task
 from sqlalchemy.ext.asyncio import (
     AsyncSession,
     async_scoped_session,
-    create_async_engine,
     async_sessionmaker,
+    create_async_engine,
 )
 
 from core.config import settings
@@ -42,6 +42,6 @@ class AsyncDatabaseSession:
 
 
 db_session = AsyncDatabaseSession(
-    settings.DB_URL,
-    settings.DB_ECHO,
+    settings.db.url,
+    settings.db.echo,
 )
