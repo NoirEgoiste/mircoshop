@@ -1,11 +1,7 @@
-__all__ = (
-    "Base",
-    "Product",
-    "User",
-    "Post",
-)
+__all__ = ("Base", "Product", "User", "Post", "Profile")
 
 from .base import Base
-from core.models.product import Product
-from core.models.user import User
-from core.models.post import Post
+from .post import Post
+from .product import Product
+from .profile import Profile
+from .user import User
